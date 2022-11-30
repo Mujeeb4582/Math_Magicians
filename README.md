@@ -28,7 +28,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mujeeb4582.github.io/Math_Megicians/)
 
 
 <!-- GETTING STARTED -->
