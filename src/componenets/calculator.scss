@@ -1,0 +1,69 @@
+$myFontSize: 30px;
+$myFontWeight: 600;
+$shadow: #444 0 2px 12px;
+
+.calculator-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .btn {
+    box-shadow: $shadow;
+    display: flex;
+    padding: 12px 3px;
+    width: 100px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: $myFontSize;
+    font-weight: $myFontWeight;
+    cursor: pointer;
+  }
+
+  .color {
+    background-color: #fe7926;
+    border: none;
+  }
+
+  .color:active {
+    background-color: #e97926;
+  }
+
+  .screen {
+    height: 4rem;
+    background-color: #444;
+    text-align: right;
+    padding: 10px 20px;
+    color: aliceblue;
+    box-shadow: $shadow;
+
+    p {
+      font-size: $myFontSize;
+      font-weight: $myFontWeight;
+    }
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-top: 4px;
+
+    .btn-row {
+      display: flex;
+      gap: 4px;
+    }
+
+    .btn-last-row {
+      display: grid;
+      grid-template-columns: 1.02fr 0.5fr 0.5fr;
+      column-gap: 4px;
+
+      .zero {
+        width: 100%;
+      }
+    }
+  }
+}
