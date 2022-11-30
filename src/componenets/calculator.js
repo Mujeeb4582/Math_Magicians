@@ -6,10 +6,10 @@ class Calculator extends Component {
   render() {
     return (
       <div className="calculator-wrapper">
-        <div className="screen">
-          <p>0</p>
-        </div>
         <div className="btn-container">
+          <div className="screen">
+            <p>0</p>
+          </div>
           <div className="btn-row">
             <button className="btn" type="button">AC</button>
             <button className="btn" type="button">+/-</button>

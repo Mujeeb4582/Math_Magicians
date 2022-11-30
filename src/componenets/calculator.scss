@@ -32,15 +32,17 @@ $shadow: #444 0 2px 12px;
   }
 
   .screen {
-    width: 27.2%;
     height: 4rem;
     background-color: #444;
-    font-size: $myFontSize;
-    font-weight: $myFontWeight;
     text-align: right;
     padding: 10px 20px;
     color: aliceblue;
     box-shadow: $shadow;
+
+    p {
+      font-size: $myFontSize;
+      font-weight: $myFontWeight;
+    }
   }
 
   .btn-container {
