@@ -1,10 +1,11 @@
-import './App.css';
+import './App.scss';
+import Calculator from './componenets/calculator';
 
 function App() {
   return (
     <div className="App">
       <div className="components">
-        <h1>first component</h1>
+        <Calculator />
       </div>
     </div>
   );
