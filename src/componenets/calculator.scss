@@ -10,11 +10,8 @@ $shadow: #444 0 2px 12px;
   margin-top: 50px;
 
   .btn {
-    box-shadow: $shadow;
     display: flex;
     padding: 12px 3px;
-    width: 100px;
-    height: 80px;
     justify-content: center;
     align-items: center;
     font-size: $myFontSize;
@@ -24,46 +21,43 @@ $shadow: #444 0 2px 12px;
 
   .color {
     background-color: #fe7926;
-    border: none;
+    border: 1px solid gray;
   }
 
   .color:active {
     background-color: #e97926;
   }
 
+  .color:hover {
+    background-color: #e97926;
+  }
+
   .screen {
-    height: 4rem;
+    grid-area: 1/1/1/5;
     background-color: #444;
     text-align: right;
-    padding: 10px 20px;
     color: aliceblue;
-    box-shadow: $shadow;
 
     p {
+      margin: -5px;
+      padding: 3px 20px;
       font-size: $myFontSize;
       font-weight: $myFontWeight;
+      word-break: break-all;
     }
   }
 
   .btn-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
-    margin-top: 4px;
+    width: 50%;
+    box-shadow: $shadow;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 120px;
+    grid-auto-rows: 80px;
+  }
 
-    .btn-row {
-      display: flex;
-      gap: 4px;
-    }
-
-    .btn-last-row {
-      display: grid;
-      grid-template-columns: 1.02fr 0.5fr 0.5fr;
-      column-gap: 4px;
-
-      .zero {
-        width: 100%;
-      }
-    }
+  .zero {
+    grid-area: 6/1/6/3;
   }
 }
