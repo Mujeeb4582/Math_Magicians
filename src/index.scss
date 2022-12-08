@@ -1,3 +1,6 @@
+$myFontWeight: 600;
+$myFontColor: #0c2c4c;
+
 body {
   margin: 0;
   font-family:
@@ -14,6 +17,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 code {
@@ -24,4 +30,52 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -8px 40px;
+
+  .logo {
+    font-size: 3rem;
+    font-weight: $myFontWeight;
+    line-height: 1em;
+    color: $myFontColor;
+  }
+
+  .navBar .navMenu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: $myFontWeight;
+      color: $myFontColor;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    a:hover {
+      background-color: #ccc;
+    }
+  }
+}
+
+.quote_content {
+  width: 100%;
+  height: 60vh;
+
+  p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: $myFontWeight;
+    color: $myFontColor;
+  }
 }
