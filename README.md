@@ -28,7 +28,6 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-# Math_Megicians
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
 ## 🛠 Built With 
@@ -90,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:abdallahmalima/Math-Magician.git
+  git clone https://github.com/Mujeeb4582/Math_Megicians.git
 ```
 
 ### Usage
@@ -132,7 +131,7 @@ You can deploy this project using:
 
 - GitHub: [@Mujeeb4582](https://github.com/Mujeeb4582)
 - Twitter: [@Mujeebu93992980](https://twitter.com/Mujeebu93992980)
-- LinkedIn: [mujeeb-ur-rahman-54268011a](https://linkedin.com/in/mujeeb-ur-rahman-54268011a)
+- LinkedIn: [@mujeeb-ur-rahman-54268011a](https://linkedin.com/in/mujeeb-ur-rahman-54268011a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
