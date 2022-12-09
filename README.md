@@ -66,7 +66,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mujeeb4582.github.io/Math_Megicians/)
+- [Live Demo Link -1](https://mujeeb4582.github.io/Math_Megicians/)
+- [Live Demo Link -2](https://math-megicians.vercel.app/)
+- [Live Demo Link -3](https://math-megicians.onrender.com/)
+- [Live Demo Link -](https://math-megicians.netlify.app/)
 
 
 <!-- GETTING STARTED -->
